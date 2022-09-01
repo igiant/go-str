@@ -2,6 +2,7 @@ package str
 
 import "strings"
 
+// IntToFormatStr - функция преобразования числа n в строку c указанием символа sep разделения разрядов (0 - отсутствие разделения по разрядам)
 func IntToFormatStr(n int, sep byte) string {
 	if n == 0 {
 		return "0"
